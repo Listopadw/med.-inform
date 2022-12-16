@@ -7,21 +7,28 @@ body{
 }
 p{
     text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
     text-indent: 8ch;
-}
-
-h2, h3, h4 {
-    color: crimson;
-    text-decoration-line: underline;
 }
 .container{
     position: relative;
     text-align: center;
-    color: grey;
+    color: white;
 }
 .bottom-center{
     position: absolute;
     top: 70%;
     left: 25%;
     font-size: 36px;
+}
+.left{
+    position: absolute;
+    left: 0px;
+    font-size: 26px;
+}
+.right{
+    position: absolute;
+    right: 50px;
+    font-size: 26px;
 }
